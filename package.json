@@ -1,22 +1,17 @@
 {
   "name": "writer-assist",
   "version": "1.0.0",
-  "description": "helping writers",
+  "description": "A website to help writers to create, publish, promote, fund, review and sell their books.",
   "main": "server.js",
   "scripts": {
-    "start": "node --max-http-header-size=16384 server.js"
+    "start": "node server.js"
   },
-  
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "body-parser": "^1.19.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
-    "dotenv": "^10.0.0",
-    "express": "^4.18.2",
-    "express-session": "^1.17.2",
-    "https": "^1.0.0",
-    "passport": "^0.4.1",
-    "passport-local": "^1.0.0",
-    "pg": "^8.7.1"
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "pg": "^8.11.3"
   }
 }
